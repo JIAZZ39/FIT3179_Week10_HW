@@ -1,0 +1,23 @@
+body {
+  /* A nice font for the page */
+  font-family: sans-serif; 
+
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  
+  /* Make sure the body takes up at least the full screen height */
+  min-height: 100vh;
+  margin: 0;
+  
+  /* A light background color to make the page look nicer */
+  background-color: #f4f4f4;
+}
+
+/* Add a border or background to the map container: */
+#choropleth_map {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
