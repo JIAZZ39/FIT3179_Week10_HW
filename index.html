@@ -1,27 +1,92 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <title>Multiple Visualisations | An Example</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="styles.css" media="all">
 
 
 </head>
-<body>
   
-<div id="choropleth_map"></div>
+<body>
 
-<script type="text/javascript">
+  <div class="page">
 
-  var spec2 = "choropleth_map.vg.json";
-  vegaEmbed('#choropleth_map', spec2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
+    <!-- Section 1: Domain Title and Introduction -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1>DEMOGRAPHIC TRENDS AND PUBLIC HEALTH IN MALAYSIA</h1>
+        <p style="text-align: center; font-size: 1.1em; margin-bottom: 40px;">
+          This visualization explores the fundamental health and demographic stability of Malaysia by integrating data on population, births, and disease prevalence. We investigate geographical variations in birth rates and track the shifting burden of communicable diseases over the last decade.
+        </p>
+      </div>
+    </div>
 
+    <!-- Section 2: Choropleth Map (Full Width) -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h2>Visualisation 1: Birth Rate Across Malaysia (2021)</h2>
+        
+        <div id="choropleth_map" class="vis-container"></div>
+
+        <p class="description" style="text-align: center;">
+          The map displays the **Crude Birth Rate (Births per 1,000 People)** across Malaysian states in 2021. The choropleth idiom, reveals the true prevalence of births after accounting for population size, highlighting critical regional differences in demographic trends.
+        </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- Section 3: Bubble-Line Chart (Full Width) -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h2>Visualisation 2: Communicable Disease Trends (2011-2021)</h2>
+        
+        <div id="bubble_line_chart" class="vis-container"></div>
+
+        <p class="description" style="text-align: center;">
+          This chart uses a **Bubble-Line idiom** to track the evolution of disease categories over a decade. The Y-axis shows **risk** (Cases per 100,000, on a log scale), while the bubble **size** shows the **absolute burden** (Total Cases). This allows simultaneous analysis of both risk and scale. The interactive filters and annotations highlight the dynamic trends of different diseases category.
+        </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <div class="pure-g" style="border-top: 1px solid #ccc; padding-top: 20px;">
+      <div class="pure-u-1-1" style="text-align: center; font-size: 13px; color: #555;">
+        <p>Data sources: Department of Statistics Malaysia (DOSM) via data.gov.my and open.dosm.gov.my | Visualisation by Lim Jia Yi for FIT3179, Monash University.</p>
+      </div>
+    </div>
+
+
+  </div> <!-- end page -->
+
+  <script type="text/javascript">
+    // Define the paths to your JSON files
+    var specChoropleth = "choropleth_map.vg.json";
+    var specBubbleLine = "bubble_line_chart.vg.json";
+
+    // Embed the Choropleth Map
+    vegaEmbed('#choropleth_map', specChoropleth, { "actions": false }).catch(console.error);
+
+    // Embed the Bubble-Line Chart
+    vegaEmbed('#bubble_line_chart', specBubbleLine, { "actions": false }).catch(console.error);
+
+  </script>
 </body>
+
 </html>
