@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Multiple Visualisations</title>
+  <title>Homework Week 10</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -59,15 +59,15 @@
         
         <div id="bubble_line_chart" class="vis-container"></div>
 
-        <p class="description";">
-          This Bubble-Line chart tracks the evolution of disease categories over a decade. The Y-axis shows **risk** (Cases per 100,000, on a log scale), while the bubble **size** shows the **absolute burden** (Total Cases). This allows simultaneous analysis of both risk and scale. The interactive filters and annotations highlight the dynamic trends of different diseases category.
+        <p class="description"">
+          This Bubble-Line chart tracks the evolution of disease categories over a decade. The Y-axis shows risk (Cases per 100,000, on a log scale), while the bubble size shows the absolute burden (Total Cases). This allows simultaneous analysis of both risk and scale. The interactive filters and annotations highlight the dynamic trends of different diseases category.
         </p>
       </div>
     </div>
     <!-- end pure grid group -->
 
     <div class="pure-g" style="border-top: 1px solid #ccc; padding-top: 20px;">
-      <div class="pure-u-1-1"; font-size: 13px; color: #555;">
+      <div class="pure-u-1-1" style="font-size: 13px; color: #555;">
         <p>Data sources: Department of Statistics Malaysia (DOSM) via data.gov.my and open.dosm.gov.my | Visualisation by Lim Jia Yi for FIT3179, Monash University.</p>
       </div>
     </div>
@@ -77,7 +77,7 @@
 
   <script type="text/javascript">
     // Define the paths to your JSON files
-    var specChoropleth = "choropleth_map.vg.js";
+    var specChoropleth = "choropleth_map.vg.json";
     var specBubbleLine = "bubble_line_chart.vg.json";
 
     // Embed the Choropleth Map
@@ -90,6 +90,7 @@
 </body>
 
 </html>
+
 
 
 
