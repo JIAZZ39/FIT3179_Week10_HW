@@ -1,0 +1,335 @@
+Year,Types of Disease,Cases,Disease_Category,Sum of Population_Raw,Cases_per_100k
+2011,Cholera,586,Food & Water-borne,29062100,2.016371838
+2011,Typhoid,242,Food & Water-borne,29062100,0.832699633
+2011,Dysentry,44,Food & Water-borne,29062100,0.151399933
+2011,Food poisoning,16292,Food & Water-borne,29062100,56.05926619
+2011,Tuberculosis,20666,Respiratory,29062100,71.10979592
+2011,Leprosy,219,Other Communicable Diseases,29062100,0.753558759
+2011,Pertusis,0,Vaccine-preventable,29062100,0
+2011,Whooping cough,248,Vaccine-preventable,29062100,0.853345078
+2011,Tetanus Neonatorum,3,Vaccine-preventable,29062100,0.010322723
+2011,Other Tetanus,8,Vaccine-preventable,29062100,0.027527261
+2011,Viral encephalitis,13,Vector-borne,29062100,0.044731798
+2011,Measles,1569,Vaccine-preventable,29062100,5.398783983
+2011,Dengue fever,18466,Vector-borne,29062100,63.53979926
+2011,Dengue  haemorrhagic fever,1418,Vector-borne,29062100,4.87920694
+2011,Hepatitis A,0,Food & Water-borne,29062100,0
+2011,Hepatitis B,0,Viral Hepatitis (Blood/Contact),29062100,0
+2011,Hepatitis C,0,Viral Hepatitis (Blood/Contact),29062100,0
+2011,Viral hepatitis (all types),2864,Viral Hepatitis (Blood/Contact),29062100,9.854759291
+2011,Rabies,0,Vector-borne,29062100,0
+2011,Malaria,5306,Vector-borne,29062100,18.25745559
+2011,Syphillis,1001,Blood-borne & STDs,29062100,3.444348481
+2011,Gonococol infection,0,Blood-borne & STDs,29062100,0
+2011,Gonorrhoea,1365,Blood-borne & STDs,29062100,4.696838838
+2011,Chancroid,0,Blood-borne & STDs,29062100,0
+2011,H.I.V,3479,Blood-borne & STDs,29062100,11.97091745
+2011,A.I.D.S,1334,Blood-borne & STDs,29062100,4.590170703
+2011,Leptospirosis,2268,Vector-borne,29062100,7.803978377
+2011,Hand Foot Mouth Diseases (HFMD),7002,Other Communicable Diseases,29062100,24.09323483
+2011,Typhus,13,Vector-borne,29062100,0.044731798
+2011,Diphtheria,0,Vaccine-preventable,29062100,0
+2012,Cholera,282,Food & Water-borne,29509900,0.955611507
+2012,Typhoid,218,Food & Water-borne,29509900,0.738735136
+2012,Dysentry,86,Food & Water-borne,29509900,0.291427623
+2012,Food poisoning,13182,Food & Water-borne,29509900,44.6697549
+2012,Tuberculosis,22710,Respiratory,29509900,76.95722452
+2012,Leprosy,325,Other Communicable Diseases,29509900,1.101325318
+2012,Pertusis,0,Vaccine-preventable,29509900,0
+2012,Whooping cough,224,Vaccine-preventable,29509900,0.759067296
+2012,Tetanus Neonatorum,9,Vaccine-preventable,29509900,0.03049824
+2012,Other Tetanus,24,Vaccine-preventable,29509900,0.081328639
+2012,Viral encephalitis,23,Vector-borne,29509900,0.077939946
+2012,Measles,1876,Vaccine-preventable,29509900,6.357188605
+2012,Dengue fever,21181,Vector-borne,29509900,71.77591249
+2012,Dengue  haemorrhagic fever,719,Vector-borne,29509900,2.436470473
+2012,Hepatitis A,0,Food & Water-borne,29509900,0
+2012,Hepatitis B,0,Viral Hepatitis (Blood/Contact),29509900,0
+2012,Hepatitis C,0,Viral Hepatitis (Blood/Contact),29509900,0
+2012,Viral hepatitis (all types),4912,Viral Hepatitis (Blood/Contact),29509900,16.64526142
+2012,Rabies,0,Vector-borne,29509900,0
+2012,Malaria,4725,Vector-borne,29509900,16.01157578
+2012,Syphillis,1672,Blood-borne & STDs,29509900,5.665895174
+2012,Gonococol infection,0,Blood-borne & STDs,29509900,0
+2012,Gonorrhoea,1492,Blood-borne & STDs,29509900,5.055930383
+2012,Chancroid,0,Blood-borne & STDs,29509900,0
+2012,H.I.V,3438,Blood-borne & STDs,29509900,11.65032752
+2012,A.I.D.S,1361,Blood-borne & STDs,29509900,4.612011562
+2012,Leptospirosis,3665,Vector-borne,29509900,12.41956089
+2012,Hand Foot Mouth Diseases (HFMD),34519,Other Communicable Diseases,29509900,116.9743035
+2012,Typhus,8,Vector-borne,29509900,0.027109546
+2012,Diphtheria,0,Vaccine-preventable,29509900,0
+2013,Cholera,171,Food & Water-borne,30213800,0.565966545
+2013,Typhoid,218,Food & Water-borne,30213800,0.721524601
+2013,Dysentry,83,Food & Water-borne,30213800,0.274708908
+2013,Food poisoning,14202,Food & Water-borne,30213800,47.00501096
+2013,Tuberculosis,23262,Respiratory,30213800,76.99130861
+2013,Leprosy,306,Other Communicable Diseases,30213800,1.012782239
+2013,Pertusis,0,Vaccine-preventable,30213800,0
+2013,Whooping cough,222,Vaccine-preventable,30213800,0.734763585
+2013,Tetanus Neonatorum,6,Vaccine-preventable,30213800,0.019858475
+2013,Other Tetanus,26,Vaccine-preventable,30213800,0.086053393
+2013,Viral encephalitis,16,Vector-borne,30213800,0.052955934
+2013,Measles,195,Vaccine-preventable,30213800,0.645400446
+2013,Dengue fever,42572,Vector-borne,30213800,140.9025015
+2013,Dengue  haemorrhagic fever,774,Vector-borne,30213800,2.561743309
+2013,Hepatitis A,0,Food & Water-borne,30213800,0
+2013,Hepatitis B,0,Viral Hepatitis (Blood/Contact),30213800,0
+2013,Hepatitis C,0,Viral Hepatitis (Blood/Contact),30213800,0
+2013,Viral hepatitis (all types),5724,Viral Hepatitis (Blood/Contact),30213800,18.9449854
+2013,Rabies,0,Vector-borne,30213800,0
+2013,Malaria,3850,Vector-borne,30213800,12.74252163
+2013,Syphillis,1617,Blood-borne & STDs,30213800,5.351859084
+2013,Gonococol infection,0,Blood-borne & STDs,30213800,0
+2013,Gonorrhoea,1419,Blood-borne & STDs,30213800,4.6965294
+2013,Chancroid,0,Blood-borne & STDs,30213800,0
+2013,H.I.V,3393,Blood-borne & STDs,30213800,11.22996776
+2013,A.I.D.S,1188,Blood-borne & STDs,30213800,3.931978103
+2013,Leptospirosis,4457,Vector-borne,30213800,14.75153738
+2013,Hand Foot Mouth Diseases (HFMD),23331,Other Communicable Diseases,30213800,77.21968107
+2013,Typhus,10,Vector-borne,30213800,0.033097459
+2013,Diphtheria,4,Vaccine-preventable,30213800,0.013238984
+2014,Cholera,134,Food & Water-borne,30708600,0.436359847
+2014,Typhoid,212,Food & Water-borne,30708600,0.690360355
+2014,Dysentry,80,Food & Water-borne,30708600,0.260513342
+2014,Food poisoning,17651,Food & Water-borne,30708600,57.47901239
+2014,Tuberculosis,24711,Respiratory,30708600,80.46931478
+2014,Leprosy,308,Other Communicable Diseases,30708600,1.002976365
+2014,Pertusis,0,Vaccine-preventable,30708600,0
+2014,Whooping cough,497,Vaccine-preventable,30708600,1.618439134
+2014,Tetanus Neonatorum,8,Vaccine-preventable,30708600,0.026051334
+2014,Other Tetanus,14,Vaccine-preventable,30708600,0.045589835
+2014,Viral encephalitis,48,Vector-borne,30708600,0.156308005
+2014,Measles,221,Vaccine-preventable,30708600,0.719668106
+2014,Dengue fever,107597,Vector-borne,30708600,350.3806751
+2014,Dengue  haemorrhagic fever,1101,Vector-borne,30708600,3.585314863
+2014,Hepatitis A,0,Food & Water-borne,30708600,0
+2014,Hepatitis B,0,Viral Hepatitis (Blood/Contact),30708600,0
+2014,Hepatitis C,0,Viral Hepatitis (Blood/Contact),30708600,0
+2014,Viral hepatitis (all types),6268,Viral Hepatitis (Blood/Contact),30708600,20.41122031
+2014,Rabies,0,Vector-borne,30708600,0
+2014,Malaria,3923,Vector-borne,30708600,12.77492299
+2014,Syphillis,1689,Blood-borne & STDs,30708600,5.500087923
+2014,Gonococol infection,0,Blood-borne & STDs,30708600,0
+2014,Gonorrhoea,1769,Blood-borne & STDs,30708600,5.760601265
+2014,Chancroid,1,Blood-borne & STDs,30708600,0.003256417
+2014,H.I.V,3517,Blood-borne & STDs,30708600,11.45281778
+2014,A.I.D.S,1149,Blood-borne & STDs,30708600,3.741622868
+2014,Leptospirosis,7806,Vector-borne,30708600,25.4195893
+2014,Hand Foot Mouth Diseases (HFMD),31322,Other Communicable Diseases,30708600,101.997486
+2014,Typhus,2,Vector-borne,30708600,0.006512834
+2014,Diphtheria,2,Vaccine-preventable,30708600,0.006512834
+2015,Cholera,244,Food & Water-borne,31186100,0.782399851
+2015,Typhoid,434,Food & Water-borne,31186100,1.391645637
+2015,Dysentry,125,Food & Water-borne,31186100,0.400819596
+2015,Food poisoning,14433,Food & Water-borne,31186100,46.28023382
+2015,Tuberculosis,24220,Respiratory,31186100,77.6628049
+2015,Leprosy,210,Other Communicable Diseases,31186100,0.673376921
+2015,Pertusis,939,Vaccine-preventable,31186100,3.010956804
+2015,Whooping cough,0,Vaccine-preventable,31186100,0
+2015,Tetanus Neonatorum,16,Vaccine-preventable,31186100,0.051304908
+2015,Other Tetanus,20,Vaccine-preventable,31186100,0.064131135
+2015,Viral encephalitis,37,Vector-borne,31186100,0.1186426
+2015,Measles,1318,Vaccine-preventable,31186100,4.226241819
+2015,Dengue fever,119796,Vector-borne,31186100,384.1326745
+2015,Dengue  haemorrhagic fever,1040,Vector-borne,31186100,3.334819038
+2015,Hepatitis A,110,Food & Water-borne,31186100,0.352721244
+2015,Hepatitis B,3855,Viral Hepatitis (Blood/Contact),31186100,12.36127634
+2015,Hepatitis C,2108,Viral Hepatitis (Blood/Contact),31186100,6.759421665
+2015,Other specified viral hepatits,45,Other Communicable Diseases,31186100,0.144295055
+2015,Viral hepatitis (all types),0,Viral Hepatitis (Blood/Contact),31186100,0
+2015,Rabies,0,Vector-borne,31186100,0
+2015,Malaria,2311,Vector-borne,31186100,7.410352689
+2015,Syphillis,1828,Blood-borne & STDs,31186100,5.861585771
+2015,Gonococol infection,0,Blood-borne & STDs,31186100,0
+2015,Gonorrhoea,2295,Blood-borne & STDs,31186100,7.359047781
+2015,Chancroid,0,Blood-borne & STDs,31186100,0
+2015,H.I.V,3330,Blood-borne & STDs,31186100,10.67783404
+2015,A.I.D.S,1111,Blood-borne & STDs,31186100,3.562484568
+2015,Leptospirosis,8291,Vector-borne,31186100,26.58556216
+2015,Hand Foot Mouth Diseases (HFMD),22587,Other Communicable Diseases,31186100,72.4264977
+2015,Typhus,3,Vector-borne,31186100,0.00961967
+2015,Diphtheria,4,Vaccine-preventable,31186100,0.012826227
+2016,Cholera,170,Food & Water-borne,31633400,0.537406665
+2016,Typhoid,181,Food & Water-borne,31633400,0.572180038
+2016,Dysentry,126,Food & Water-borne,31633400,0.398313175
+2016,Food poisoning,17480,Food & Water-borne,31633400,55.25805004
+2016,Tuberculosis,25739,Respiratory,31633400,81.36653031
+2016,Leprosy,206,Other Communicable Diseases,31633400,0.651210429
+2016,Pertusis,298,Vaccine-preventable,31633400,0.942042272
+2016,Whooping cough,0,Vaccine-preventable,31633400,0
+2016,Tetanus Neonatorum,6,Vaccine-preventable,31633400,0.018967294
+2016,Other Tetanus,17,Vaccine-preventable,31633400,0.053740667
+2016,Viral encephalitis,51,Vector-borne,31633400,0.161222
+2016,Measles,1587,Vaccine-preventable,31633400,5.01684928
+2016,Dengue fever,100722,Vector-borne,31633400,318.4039654
+2016,Dengue  haemorrhagic fever,635,Vector-borne,31633400,2.007371955
+2016,Hepatitis A,85,Food & Water-borne,31633400,0.268703333
+2016,Hepatitis B,3890,Viral Hepatitis (Blood/Contact),31633400,12.29712898
+2016,Hepatitis C,2645,Viral Hepatitis (Blood/Contact),31633400,8.361415466
+2016,Other specified viral hepatits,26,Other Communicable Diseases,31633400,0.082191608
+2016,Viral hepatitis (all types),0,Viral Hepatitis (Blood/Contact),31633400,0
+2016,Rabies,0,Vector-borne,31633400,0
+2016,Malaria,2302,Vector-borne,31633400,7.277118489
+2016,Syphillis,2058,Blood-borne & STDs,31633400,6.505781863
+2016,Gonococol infection,0,Blood-borne & STDs,31633400,0
+2016,Gonorrhoea,2886,Blood-borne & STDs,31633400,9.123268444
+2016,Chancroid,0,Blood-borne & STDs,31633400,0
+2016,H.I.V,3397,Blood-borne & STDs,31633400,10.73864966
+2016,A.I.D.S,1222,Blood-borne & STDs,31633400,3.863005557
+2016,Leptospirosis,5285,Vector-borne,31633400,16.70702485
+2016,Hand Foot Mouth Diseases (HFMD),47008,Other Communicable Diseases,31633400,148.6024265
+2016,Typhus,1,Vector-borne,31633400,0.003161216
+2016,Diphtheria,31,Vaccine-preventable,31633400,0.097997686
+2017,Cholera,2,Food & Water-borne,32022500,0.006245609
+2017,Typhoid,190,Food & Water-borne,32022500,0.593332813
+2017,Dysentry,119,Food & Water-borne,32022500,0.371613709
+2017,Food poisoning,13686,Food & Water-borne,32022500,42.73869935
+2017,Tuberculosis,26168,Respiratory,32022500,81.71754235
+2017,Leprosy,214,Other Communicable Diseases,32022500,0.668280116
+2017,Pertusis,353,Vaccine-preventable,32022500,1.10234991
+2017,Whooping cough,0,Vaccine-preventable,32022500,0
+2017,Tetanus Neonatorum,16,Vaccine-preventable,32022500,0.049964868
+2017,Other Tetanus,25,Vaccine-preventable,32022500,0.078070107
+2017,Viral encephalitis,30,Vector-borne,32022500,0.093684128
+2017,Measles,1709,Vaccine-preventable,32022500,5.336872512
+2017,Dengue fever,83443,Vector-borne,32022500,260.5761574
+2017,Dengue  haemorrhagic fever,406,Vector-borne,32022500,1.267858537
+2017,Hepatitis A,153,Food & Water-borne,32022500,0.477789055
+2017,Hepatitis B,4991,Viral Hepatitis (Blood/Contact),32022500,15.58591615
+2017,Hepatitis C,3089,Viral Hepatitis (Blood/Contact),32022500,9.646342415
+2017,Other specified viral hepatits,22,Other Communicable Diseases,32022500,0.068701694
+2017,Viral hepatitis (all types),0,Viral Hepatitis (Blood/Contact),32022500,0
+2017,Rabies,0,Vector-borne,32022500,0
+2017,Malaria,4114,Vector-borne,32022500,12.8472168
+2017,Syphillis,2591,Blood-borne & STDs,32022500,8.091185885
+2017,Gonococol infection,0,Blood-borne & STDs,32022500,0
+2017,Gonorrhoea,3364,Blood-borne & STDs,32022500,10.50511359
+2017,Chancroid,0,Blood-borne & STDs,32022500,0
+2017,H.I.V,3347,Blood-borne & STDs,32022500,10.45202592
+2017,A.I.D.S,1289,Blood-borne & STDs,32022500,4.025294715
+2017,Leptospirosis,4365,Vector-borne,32022500,13.63104067
+2017,Hand Foot Mouth Diseases (HFMD),29359,Other Communicable Diseases,32022500,91.6824108
+2017,Typhus,20,Vector-borne,32022500,0.062456086
+2017,Diphtheria,32,Vaccine-preventable,32022500,0.099929737
+2018,Cholera,165,Food & Water-borne,32382300,0.509537618
+2018,Typhoid,173,Food & Water-borne,32382300,0.534242472
+2018,Dysentry,164,Food & Water-borne,32382300,0.506449511
+2018,Food poisoning,15023,Food & Water-borne,32382300,46.39262807
+2018,Tuberculosis,25837,Respiratory,32382300,79.78741473
+2018,Leprosy,182,Other Communicable Diseases,32382300,0.562035433
+2018,Pertusis,892,Vaccine-preventable,32382300,2.754591243
+2018,Whooping cough,0,Vaccine-preventable,32382300,0
+2018,Tetanus Neonatorum,26,Vaccine-preventable,32382300,0.080290776
+2018,Other Tetanus,31,Vaccine-preventable,32382300,0.09573131
+2018,Viral encephalitis,34,Vector-borne,32382300,0.10499563
+2018,Measles,1958,Vaccine-preventable,32382300,6.046513064
+2018,Dengue fever,80210,Vector-borne,32382300,247.6970444
+2018,Dengue  haemorrhagic fever,405,Vector-borne,32382300,1.250683244
+2018,Hepatitis A,100,Food & Water-borne,32382300,0.308810677
+2018,Hepatitis B,4773,Viral Hepatitis (Blood/Contact),32382300,14.73953363
+2018,Hepatitis C,2842,Viral Hepatitis (Blood/Contact),32382300,8.776399453
+2018,Other specified viral hepatits,7,Other Communicable Diseases,32382300,0.021616747
+2018,Viral hepatitis (all types),0,Viral Hepatitis (Blood/Contact),32382300,0
+2018,Rabies,0,Vector-borne,32382300,0
+2018,Malaria,4630,Vector-borne,32382300,14.29793437
+2018,Syphillis,3077,Blood-borne & STDs,32382300,9.502104545
+2018,Gonococol infection,0,Blood-borne & STDs,32382300,0
+2018,Gonorrhoea,3130,Blood-borne & STDs,32382300,9.665774204
+2018,Chancroid,0,Blood-borne & STDs,32382300,0
+2018,H.I.V,78,Blood-borne & STDs,32382300,0.240872328
+2018,A.I.D.S,100,Blood-borne & STDs,32382300,0.308810677
+2018,Leptospirosis,181,Vector-borne,32382300,0.558947326
+2018,Hand Foot Mouth Diseases (HFMD),3021,Other Communicable Diseases,32382300,9.329170565
+2018,Typhus,0,Vector-borne,32382300,0
+2018,Diphtheria,0,Vaccine-preventable,32382300,0
+2019,Cholera,81,Food & Water-borne,32522800,0.249056047
+2019,Typhoid,180,Food & Water-borne,32522800,0.553457882
+2019,Dysentry,219,Food & Water-borne,32522800,0.673373756
+2019,Food poisoning,16583,Food & Water-borne,32522800,50.98884475
+2019,Tuberculosis,26352,Respiratory,32522800,81.0262339
+2019,Leprosy,198,Other Communicable Diseases,32522800,0.60880367
+2019,Pertusis,915,Vaccine-preventable,32522800,2.813410899
+2019,Tetanus Neonatorum,30,Vaccine-preventable,32522800,0.09224298
+2019,Other Tetanus,34,Vaccine-preventable,32522800,0.104542044
+2019,Viral encephalitis,42,Vector-borne,32522800,0.129140172
+2019,Measles,1077,Vaccine-preventable,32522800,3.311522993
+2019,Dengue fever,129578,Vector-borne,32522800,398.4220301
+2019,Dengue  haemorrhagic fever,523,Vector-borne,32522800,1.608102623
+2019,Hepatitis A,94,Food & Water-borne,32522800,0.289028005
+2019,Hepatitis B,5118,Viral Hepatitis (Blood/Contact),32522800,15.73665244
+2019,Hepatitis C,3438,Viral Hepatitis (Blood/Contact),32522800,10.57104554
+2019,Other specified viral hepatits,7,Other Communicable Diseases,32522800,0.021523362
+2019,Viral hepatitis (all types),0,Viral Hepatitis (Blood/Contact),32522800,0
+2019,Rabies,0,Vector-borne,32522800,0
+2019,Malaria,3941,Vector-borne,32522800,12.11765285
+2019,Syphillis,3504,Blood-borne & STDs,32522800,10.7739801
+2019,Gonococol infection,0,Blood-borne & STDs,32522800,0
+2019,Gonorrhoea,3013,Blood-borne & STDs,32522800,9.264269989
+2019,Chancroid,0,Blood-borne & STDs,32522800,0
+2019,H.I.V,3564,Blood-borne & STDs,32522800,10.95846606
+2019,A.I.D.S,1122,Blood-borne & STDs,32522800,3.449887464
+2019,Leptospirosis,5217,Vector-borne,32522800,16.04105428
+2019,Hand Foot Mouth Diseases (HFMD),52176,Other Communicable Diseases,32522800,160.4289914
+2019,Typhus,20,Vector-borne,32522800,0.06149532
+2019,Diphtheria,16,Vaccine-preventable,32522800,0.049196256
+2020,Cholera,115,Food & Water-borne,32447300,0.354420861
+2020,Typhoid,64,Food & Water-borne,32447300,0.197242914
+2020,Dysentry,157,Food & Water-borne,32447300,0.483861523
+2020,Food poisoning,9425,Food & Water-borne,32447300,29.04710099
+2020,Tuberculosis,23644,Respiratory,32447300,72.868929
+2020,Leprosy,197,Other Communicable Diseases,32447300,0.607138344
+2020,Pertusis,136,Vaccine-preventable,32447300,0.419141192
+2020,Tetanus Neonatorum,11,Vaccine-preventable,32447300,0.033901126
+2020,Other Tetanus,19,Vaccine-preventable,32447300,0.05855649
+2020,Viral encephalitis,9,Vector-borne,32447300,0.027737285
+2020,Measles,477,Vaccine-preventable,32447300,1.470076093
+2020,Dengue fever,89960,Vector-borne,32447300,277.2495708
+2020,Dengue  haemorrhagic fever,344,Vector-borne,32447300,1.060180662
+2020,Hepatitis A,47,Food & Water-borne,32447300,0.144850265
+2020,Hepatitis B,4117,Viral Hepatitis (Blood/Contact),32447300,12.68826682
+2020,Hepatitis C,3300,Viral Hepatitis (Blood/Contact),32447300,10.17033775
+2020,Other specified viral hepatits,6,Other Communicable Diseases,32447300,0.018491523
+2020,Viral hepatitis (all types),0,Viral Hepatitis (Blood/Contact),32447300,0
+2020,Rabies,0,Vector-borne,32447300,0
+2020,Malaria,2839,Vector-borne,32447300,8.749572384
+2020,Syphillis,3462,Blood-borne & STDs,32447300,10.66960887
+2020,Gonococol infection,0,Blood-borne & STDs,32447300,0
+2020,Gonorrhoea,2339,Blood-borne & STDs,32447300,7.208612119
+2020,Chancroid,0,Blood-borne & STDs,32447300,0
+2020,H.I.V,3146,Blood-borne & STDs,32447300,9.695721986
+2020,A.I.D.S,1038,Blood-borne & STDs,32447300,3.19903351
+2020,Leptospirosis,2914,Vector-borne,32447300,8.980716423
+2020,Hand Foot Mouth Diseases (HFMD),17235,Other Communicable Diseases,32447300,53.11690033
+2020,Typhus,9,Vector-borne,32447300,0.027737285
+2020,Diphtheria,12,Vaccine-preventable,32447300,0.036983046
+2021,Cholera,64,Food & Water-borne,32576400,0.196461242
+2021,Typhoid,102,Food & Water-borne,32576400,0.313110104
+2021,Dysentry,198,Food & Water-borne,32576400,0.607801967
+2021,Food poisoning,6007,Food & Water-borne,32576400,18.43972937
+2021,Tuberculosis,21727,Respiratory,32576400,66.69552191
+2021,Leprosy,166,Other Communicable Diseases,32576400,0.509571346
+2021,Pertusis,11,Vaccine-preventable,32576400,0.033766776
+2021,Tetanus Neonatorum,16,Vaccine-preventable,32576400,0.04911531
+2021,Other Tetanus,17,Vaccine-preventable,32576400,0.052185017
+2021,Viral encephalitis,9,Vector-borne,32576400,0.027627362
+2021,Measles,128,Vaccine-preventable,32576400,0.392922484
+2021,Dengue fever,26301,Vector-borne,32576400,80.73636129
+2021,Dengue  haemorrhagic fever,64,Vector-borne,32576400,0.196461242
+2021,Hepatitis A,24,Food & Water-borne,32576400,0.073672966
+2021,Hepatitis B,3781,Viral Hepatitis (Blood/Contact),32576400,11.60656181
+2021,Hepatitis C,2804,Viral Hepatitis (Blood/Contact),32576400,8.60745816
+2021,Other specified viral hepatits,6,Other Communicable Diseases,32576400,0.018418241
+2021,Viral hepatitis (all types),0,Viral Hepatitis (Blood/Contact),32576400,0
+2021,Rabies,0,Vector-borne,32576400,0
+2021,Malaria,3688,Vector-borne,32576400,11.32107906
+2021,Syphillis,3461,Blood-borne & STDs,32576400,10.6242556
+2021,Gonococol infection,0,Blood-borne & STDs,32576400,0
+2021,Gonorrhoea,1461,Blood-borne & STDs,32576400,4.484841787
+2021,Chancroid,0,Blood-borne & STDs,32576400,0
+2021,H.I.V,2760,Blood-borne & STDs,32576400,8.472391056
+2021,A.I.D.S,878,Blood-borne & STDs,32576400,2.695202662
+2021,Leptospirosis,1763,Vector-borne,32576400,5.411893272
+2021,Hand Foot Mouth Diseases (HFMD),4238,Other Communicable Diseases,32576400,13.00941786
+2021,Typhus,9,Vector-borne,32576400,0.027627362
+2021,Diphtheria,5,Vaccine-preventable,32576400,0.015348535
