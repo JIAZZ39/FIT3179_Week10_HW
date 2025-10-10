@@ -1,0 +1,140 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Communicable Disease Trends in Malaysia by Category (2011-2021)",
+  "width": 800,
+  "height": 500,
+  "padding": {"left":50, "top":20, "right": 150, "bottom": 20},
+  "data": {
+    "url": "https://raw.githubusercontent.com/JIAZZ39/FIT3179_Week10_HW/main/2011-2021%20new%20normalized%20diseases%20data.csv"
+  },
+
+  "params": [
+    {
+      "name": "Minimum_Cases_Slider",
+      "value": 1000,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 140000, 
+        "step": 1000,
+        "name": "Minimum Cases: "
+      }
+    },
+    {
+      "name": "Category_Selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Vector-borne",
+          "Food & Water-borne",
+          "Vaccine-preventable",
+          "Blood-borne & STDs",
+          "Viral Hepatitis (Blood/Contact)",
+          "Respiratory",
+          "Other Communicable Diseases"
+        ],
+        "labels": [
+          "Show All Categories",
+          "Vector-borne",
+          "Food & Water-borne",
+          "Vaccine-preventable",
+          "Blood-borne & STDs",
+          "Viral Hepatitis",
+          "Respiratory",
+          "Other"
+        ],
+        "name": "Select Category: "
+      }
+    }
+  ],
+
+  "transform": [
+    {"filter": "datum.Total_Cases > 0"},
+    {"filter": "datum.Total_Cases >= Minimum_Cases_Slider"},
+    {
+      "filter": "Category_Selection == null || datum.Disease_Category == Category_Selection"
+    }
+  ],
+
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "title": "Year"},
+    "y": {
+      "field": "Category_Cases_per_100k",
+      "type": "quantitative",
+      "title": "Cases per 100,000 People",
+      "scale": {"type": "log"}
+    }
+  },
+
+  "layer": [
+    {
+      "mark": {"type": "line", "point": true, "strokeWidth": 2.5},
+      "encoding": {
+        "color": {
+          "field": "Disease_Category",
+          "type": "nominal",
+          "title": "Disease Category"
+        }
+      }
+    },
+    
+    {
+      "mark": {"type": "circle", "opacity": 0.9},
+      "encoding": {
+        "size": {
+          "field": "Total_Cases",
+          "type": "quantitative",
+          "title": "Total Cases",
+          "scale": {"range": [20, 5000]}
+        },
+        "color": {
+          "field": "Disease_Category",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {"field": "Disease_Category", "type": "nominal"},
+          {"field": "Year", "type": "ordinal"},
+          {"field": "Total_Cases", "type": "quantitative", "format": ","},
+          {
+            "field": "Category_Cases_per_100k",
+            "type": "quantitative",
+            "title": "Cases per 100k",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+
+    {
+      "transform": [
+        {
+          "window": [{"op": "rank", "as": "year_rank"}],
+          "sort": [{"field": "Year", "order": "ascending"}],
+          "groupby": ["Disease_Category"]
+        },
+        {"filter": "datum.year_rank == 1"},
+
+        {
+          "window": [{"op": "rank", "as": "rate_rank"}],
+          "sort": [{"field": "Category_Cases_per_100k", "order": "descending"}]
+        },
+        
+        {"filter": "datum.rate_rank == 1"}
+      ],
+      "mark": {
+        "type": "text",
+        "fontStyle": "italic",
+        "fontSize": 13,
+        "fontWeight": "bold",
+        "align": "center",
+        "baseline": "bottom", 
+        "dy": -30             
+      },
+      "encoding": {
+        "text": {"field": "Disease_Category", "type": "nominal"},
+        "color": {"value": "black"}
+      }
+    }
+  ]
+}
