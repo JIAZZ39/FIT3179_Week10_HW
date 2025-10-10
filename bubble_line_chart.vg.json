@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Communicable Disease Trends in Malaysia by Category (2011-2021)",
-  "width": 800,
+  "width": "container",
   "height": 500,
   "padding": {"left":50, "top":20, "right": 150, "bottom": 20},
   "data": {
@@ -137,4 +137,5 @@
       }
     }
   ]
+
 }
