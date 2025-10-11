@@ -52,8 +52,7 @@ body {
   gap: 35px;
   margin-top: 15px;
   margin-bottom: 15px;
-  justify-content: flex-start; /* align slider & dropdown to left */
-  margin-left: 35px;
+  justify-content: center; /* align slider & dropdown to center */
 }
 
 .vega-bindings .vega-bind {
@@ -61,5 +60,6 @@ body {
   align-items: center;
   gap: 8px;
 }
+
 
 
