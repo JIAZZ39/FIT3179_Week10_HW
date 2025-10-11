@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Birth Rate by State in Malaysia (2021)",
   "width": "container",
+  "view":{"stroke": null},
   "projection": {"type": "identity", "reflectY": true},
 
   "layer": [
@@ -72,6 +73,7 @@
   ]
 
 }
+
 
 
 
