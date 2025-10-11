@@ -92,13 +92,13 @@
           "type": "nominal"
         },
         "tooltip": [
-          {"field": "Disease_Category", "type": "nominal"},
+          {"field": "Disease_Category", "type": "nominal", "title": "Disease Category"},
           {"field": "Year", "type": "ordinal"},
-          {"field": "Total_Cases", "type": "quantitative", "format": ","},
+          {"field": "Total_Cases", "type": "quantitative", "title": "Total Cases", "format": ","},
           {
             "field": "Category_Cases_per_100k",
             "type": "quantitative",
-            "title": "Cases per 100k",
+            "title": "Cases (per 100k)",
             "format": ".2f"
           }
         ]
@@ -138,6 +138,7 @@
   ]
 
 }
+
 
 
 
