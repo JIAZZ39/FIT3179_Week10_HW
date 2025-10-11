@@ -63,7 +63,7 @@
           "title": "Births per 1,000 People",
           "legend": {
             "orient": "right",
-            "offset": -30
+            "offset": -100
           }
         },
         "tooltip": [
@@ -77,6 +77,7 @@
   ]
 
 }
+
 
 
 
