@@ -31,7 +31,7 @@
           "Blood-borne & STDs",
           "Viral Hepatitis (Blood/Contact)",
           "Respiratory",
-          "Other Communicable Diseases"
+          "Other"
         ],
         "labels": [
           "Show All Categories",
@@ -138,6 +138,7 @@
   ]
 
 }
+
 
 
 
