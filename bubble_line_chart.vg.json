@@ -3,7 +3,7 @@
   "title": "Communicable Disease Trends in Malaysia by Category (2011-2021)",
   "width": 600,
   "height": 500,
-  "padding": {"left":50, "top":20, "right": 50, "bottom": 20},
+  "padding": {"left":50, "top":20, "right": 80, "bottom": 20},
   "data": {
     "url": "https://raw.githubusercontent.com/JIAZZ39/FIT3179_Week10_HW/main/2011-2021%20new%20normalized%20diseases%20data.csv"
   },
@@ -139,4 +139,5 @@
   ]
 
 }
+
 
