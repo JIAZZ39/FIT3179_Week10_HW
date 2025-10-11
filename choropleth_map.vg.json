@@ -60,7 +60,11 @@
             "domain": [12, 15, 18],
             "range": ["#ffffd4", "#a1dab4", "#41b6c4", "#225ea8"]
           },
-          "title": "Births per 1,000 People"
+          "title": "Births per 1,000 People",
+          "legend": {
+            "orient": "right",
+            "offset": -30
+          }
         },
         "tooltip": [
           {"field": "state", "type": "nominal", "title": "State"}, 
@@ -73,6 +77,7 @@
   ]
 
 }
+
 
 
 
