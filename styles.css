@@ -49,14 +49,15 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 35px;
   margin-top: 15px;
   margin-bottom: 15px;
-  justify-content: center; /* Center the controls themselves */
+  justify-content: flex-start; /* Center the controls themselves */
 }
 
 .vega-bindings .vega-bind {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
 }
+
