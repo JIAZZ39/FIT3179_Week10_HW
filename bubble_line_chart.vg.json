@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Communicable Disease Trends in Malaysia by Category (2011-2021)",
-  "width": 600,
+  "width": 800,
   "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/JIAZZ39/FIT3179_Week10_HW/main/2011-2021%20new%20normalized%20diseases%20data.csv"
@@ -138,6 +138,7 @@
   ]
 
 }
+
 
 
 
